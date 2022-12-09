@@ -1,2 +1,2 @@
 # CUT&RUN data analysis for histone modification and transcription factor in excitatory and inhibitory neurons
-Source code for CUT&amp;RUN data analysis
+To investigate the cell-type specific histone modification and transcription factor bindings, we performed cut and run of four histone modifications and the transcription factor EGR1 in excitatory and inhibitory neurons in adult mouse brain, followed by high throughput sequencing. This repository is used for recording the data analysis pipeline.
