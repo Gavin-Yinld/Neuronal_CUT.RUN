@@ -3,7 +3,7 @@
 <div align=center><img width="900" height="230" src="https://github.com/Gavin-Yinld/Neuronal_CUT.RUN/blob/main/github.png"/></div>
   
   
-To investigate the cell-type specific histone modification and transcription factor bindings, we performed cut and run of four histone modifications and the transcription factor EGR1 in excitatory and inhibitory neurons in adult mouse brain, followed by high throughput sequencing. This repository is used for recording the data analysis pipeline.
+To investigate the cell-type specific histone modification and transcription factor bindings, we performed cut and run of four histone modifications and the transcription factor EGR1 in excitatory and inhibitory neurons in adult mouse brain, followed by high-throughput sequencing. This repository is used for recording the data analysis pipeline.
 
 Sequencing adapters and low-quality bases were first trimed with cutadapt (v1.18) and trim_galore (v0.5.0) for all cun&run libraries. The retained reads were aligned to mouse genome (mm10) using bowtie2 (v2.3.5) in pair-end mode with option “-N 1 -L 25”.PCR duplications were removed using picard (v2.25.0) with the option “REMOVE_DUPLICATES=true”. Non-redundant reads were further filtered for minimal mapping quality (MAPQ ≥ 30) using samtools (v1.12) view with option “-q30”.
 
