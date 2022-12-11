@@ -1,6 +1,6 @@
 # CUT&RUN data analysis for histone modification and transcription factor in excitatory and inhibitory neurons
 
-<div align=center><img width="1000" height="230" src="https://github.com/Gavin-Yinld/Neuronal_CUT.RUN/blob/main/github.png"/></div>
+<div align=center><img  src="https://github.com/Gavin-Yinld/Neuronal_CUT.RUN/blob/main/github.png"/></div>
 
 ## Introduction
 
