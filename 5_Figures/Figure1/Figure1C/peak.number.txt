@@ -1,8 +1,0 @@
-51676 H3K27ac-ex_idr
-53257 H3K27ac-in_idr
-103886 H3K27me3-ex_idr
-128357 H3K27me3-in_idr
-151902 H3K4me1-ex_idr
-101383 H3K4me1-in_idr
-30980 H3K4me3-ex_idr
-42417 H3K4me3-in_idr
