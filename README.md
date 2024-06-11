@@ -9,7 +9,7 @@ To investigate the cell-type specific histone modification and transcription fac
 Raw and processed data of this study are available in the NCBI Gene Expression Omnibus (GEO) with the accession number GSE218312. 
 
 ## Data analysis procedure
-1. Quality control
+1. Quality control  
 2. Mapping
 3. Peak calling
 4. Reproducible peaks identification
