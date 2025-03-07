@@ -1,9 +1,9 @@
 options(stringsAsFactors=F)
-setwd("/data_group/lvxuemei/yinliduo/histone/1_data.process/12_remove_black.list/peaks.without.blackslist")
-fofn <- read.table("fofn",header=F)
+
+fofn <- read.table("./input/fofn",header=F)
 fofn$value <- 0
-idr_folder <- "/data_group/lvxuemei/yinliduo/histone/1_data.process/12_remove_black.list/peaks.without.blackslist/"
-genome <- read.table("/data_group/lvxuemei/yinliduo/database/mm10.annotation/chrom_size",sep='\t',header=F)
+idr_folder <- "./input/"
+genome <- read.table("./input/chrom_size",sep='\t',header=F)
 size <- sum(genome[,2])
 
 for(i in 1:nrow(fofn))
